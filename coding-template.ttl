@@ -1,0 +1,13 @@
+:AuthorYear a dc:BibliographicResource ;
+	:science ;
+	:learningDomain ; 
+	:outcome ; 
+	lrmi:educationalLevel  ; 
+	:technology  ;  
+	:pedagogy  ; 
+	:learningTime  ;
+	:researchMethod  ;
+	:effectiveness ; 
+	:wikiLink "https://coolfutures.net/wiki/index.php?title=Computational_Modelling_in_Environmental_Education/References#" ; 
+	:annotation [ rdf:Type anno:Comment ; dc:creator :PeterReimann ; dc:created "02-Nov-2021" ;
+		anno:body "  "] .

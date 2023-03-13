@@ -1,0 +1,390 @@
+PREFIX : <http://coolfutures.net/rdf/2021/edtech#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX edtech: <http://coolfutures.net/rdf/2021/edtech#>
+PREFIX lrmi: <http://purl.org/dcx/lrmi-terms/>
+
+
+######### basic SKOS searches ########
+
+##### basic INSERTs first
+
+##### construct the narrower relation 
+
+construct {?c1 skos:narrower ?c2}  
+where
+{
+    ?c2  skos:broader ?c1
+}
+
+############ Add the narrower relation to the graph
+
+insert {?c1 skos:narrower ?c2}  
+where
+{
+    ?c2  skos:broader ?c1
+}
+
+
+######## skos one step up 
+
+select  ?concept1 ?concept2
+{
+    ?concept1 skos:broader ?concept2
+}
+
+######### to the top from a concept
+
+select  ?concept2
+{
+    :LabBasedLearning skos:broader+/ ?concept2
+}
+
+
+
+### Walk down and find all works with are narrower than the Outcomes concept
+# The `+` does path traversal. 
+
+select  ?work ?concept2
+{
+    :Outcomes skos:narrower+ ?concept2.
+    ?work :assessedOutcome ?concept2.
+}
+
+### Walk down and find all works in the base catogory and narrower categories
+# The `*` does path traversal. 
+
+SELECT   ?work ?concept
+WHERE {
+
+    :ComputerModel skos:narrower* ?concept.
+    ?work :technology ?concept.
+
+}
+
+ORDER BY ?work
+
+### Show concept hierarchy from a thesaurus.  
+
+SELECT DISTINCT  ?concept1 ?concept2
+WHERE 
+{
+{
+  :GamesAndSimulations skos:narrower ?concept1 . 
+  }
+ UNION 
+ {
+   :GamesAndSimulations skos:narrower ?concept1 . 
+   ?concept1 skos:narrower ?concept2}
+ }
+
+ORDER BY ?concept1
+
+
+
+
+#### Main categories in one table
+# It needs the UNION style because otherwise the table
+# would look more like permutations of the categories. 
+# This can be wrangled into a tidy table. 
+
+SELECT  ?work ?level ?tech ?pdg ?outcomes ?science
+WHERE {
+  {?work a dc:BibliographicResource ;
+          lrmi:educationalLevel ?level .} 
+UNION         
+  {?work a dc:BibliographicResource ;
+   :science ?science .}
+UNION         
+  {?work a dc:BibliographicResource ;
+   :technology ?tech .}
+UNION         
+  {?work a dc:BibliographicResource ;
+   :pedagogy ?pdg .}
+UNION         
+  {?work a dc:BibliographicResource ;
+   :outcome ?outcomes .}
+ }
+ORDER BY ?work
+
+
+
+
+##### Model use pedagogy
+# science and/or data based. 
+
+SELECT DISTINCT ?work
+WHERE 
+{
+{
+    ?work a dc:BibliographicResource . 
+    ?work ?p :DataBasedModel .
+}
+  UNION 
+  { ?work a dc:BibliographicResource . 
+    ?work ?p :ScienceBasedModel .}
+  }
+ORDER BY ?work
+
+
+##### Retrieve and AND/OR by filter
+# this is handy for a query string of "open length"
+# when the literals are coming from a selection of a textInput. 
+SELECT ?work ?p ?category
+	{ ?work a dc:BibliographicResource . 
+     ?work ?p ?category . 
+    FILTER (?category in (:NetLogoModel, :StellaModel, :PrePost)) . 
+    }
+ORDER BY ?work
+
+###### Learning time
+# SPARQL does not know about xsd:duration, so xsd:duration() does not work. 
+# It's necessary to use xsd:string() just to get the same string values in 
+# the right order. 
+
+SELECT ?work ?learningTime 
+	{ ?work a dc:BibliographicResource . 
+     ?work :learningTime  ?duration . 
+      BIND (xsd:string(?duration) as ?learningTime )
+    }
+ORDER BY ?learningTime
+
+# Count duration categories
+SELECT ?duration (COUNT(?duration) as ?learningTime) WHERE {
+     ?work :learningTime  ?duration . }
+GROUP BY ?duration
+
+
+########### Counting things
+
+#### count categories in concept schemes
+SELECT ?scheme  (COUNT(?concept) AS ?conceptTotal)
+
+WHERE {
+  ?scheme a skos:ConceptScheme . 
+  ?concept skos:inScheme ?scheme . 
+} 
+GROUP BY ?scheme
+
+### Number of publications by year in DESCending order
+
+SELECT ?year (COUNT(?year) AS ?yearTotal)
+        WHERE
+	{ 
+    ?work dc:date ?year .
+    }
+GROUP BY ?year 
+ORDER BY DESC(?year)
+
+# Count by category codes 
+SELECT ?code (COUNT(?code) AS ?codeTotal)
+        WHERE
+	{ 
+    ?work :technology  ?code .
+    }
+GROUP BY ?code
+ORDER BY ?codeTotal
+
+
+###  Count by a specific code 
+SELECT ?code (COUNT(?code) AS ?codeTotal)
+        WHERE
+	{ 
+    ?work :technology  ?code .
+     FILTER (?code = :ComputerModel)
+    }
+GROUP BY ?code
+
+
+### Walk down and find all works that are narrower than the Outcomes concept
+# The `+` does path traversal. 
+
+# We also need the "base" category count included. 
+# As in: This and more specific. 
+
+select  ?work ?concept
+{
+    :ComputerModel skos:narrower+ ?concept.
+    ?work :technology ?concept.
+}
+
+
+
+### Walk down and find all works in the base catogory and narrower categories
+# The `+` does path traversal. 
+
+SELECT   ?work ?concept
+WHERE 
+{
+    {?work :technology ?concept.
+    FILTER (?concept = :ComputerModel)} # :ComputerModel is the base category
+ UNION
+    {:ComputerModel skos:narrower+ ?concept.
+    ?work :technology ?concept.}
+
+}
+
+### count all categories inclucing a and more specific than a  particular concept 
+# The `+` does path traversal. 
+# :ComputerModel is the base category in this query. 
+
+SELECT   ?concept (COUNT(?concept) AS ?conceptCount) 
+WHERE 
+{
+    {?work :technology ?concept.
+    FILTER (?concept = :ComputerModel)} 
+ UNION
+    {:ComputerModel skos:narrower+ ?concept.
+    ?work :technology ?concept.}
+
+}
+GROUP BY ?concept
+
+
+
+### Sum over hierarchical codes 
+# Needs a starting code and then going downwards. 
+
+SELECT   (COUNT(?concept) AS ?conceptCount) 
+WHERE 
+{
+    {?work :technology ?concept.
+    FILTER (?concept = :ComputerModel)} # :ComputerModel is the base category
+ UNION
+    {:ComputerModel skos:narrower+ ?concept.
+    ?work :technology ?concept.}
+
+}
+
+#### listWorksByThesaurus
+
+SELECT ?work ?p ?concept  
+WHERE {
+	?concept skos:inScheme :EducationLevel .
+    ?work a dc:BibliographicResource . 
+    ?work ?p ?concept . 
+    } 
+ORDER BY ?concept ?work
+
+
+### countThesaurus
+## Count works by concepts from a thesaurus
+
+SELECT  ?concept (COUNT(?work) AS ?workCount) 
+WHERE 
+{
+    ?concept skos:inScheme :EducationLevel .
+    ?work a dc:BibliographicResource . 
+    ?work ?p ?concept .   
+}
+
+GROUP BY ?concept
+ORDER BY ?concept
+
+
+
+### Walk down and find all works in the base catogory and narrower categories, and
+# then add additional criteria. 
+# The `+` does path traversal. 
+
+SELECT   ?work ?concept
+WHERE {
+{
+    {?work :technology ?concept.
+    FILTER (?concept = :ComputerModel)} # :ComputerModel is the base category
+ UNION
+    {:ComputerModel skos:narrower+ ?concept.
+    ?work :technology ?concept.}
+
+}
+  ?work :technology :VirtualReality
+}
+
+
+#### count by effectivess
+
+SELECT  ?value (COUNT(?work) AS ?workCount) 
+WHERE 
+{
+    ?work a dc:BibliographicResource . 
+    ?work :effectiveness ?value .   
+}
+
+GROUP BY ?value
+ORDER BY ?value
+
+### Approach
+
+# Find me all problems
+PREFIX semsur: <http://purl.org/SemSur/>
+SELECT ?s ?d WHERE 
+  {?s a ?problemType . 
+   ?problemType rdfs:subClassOf semsur:Problem . 
+  ?s dc:description ?d}
+ORDER BY ?s
+
+# Find me all approaches
+SELECT ?s ?d WHERE {
+  {?s a :DesignApproach . 
+  ?s dc:description ?d}
+  UNION
+  {?s a :ResearchApproach . 
+  ?s dc:description ?d}
+  }
+ORDER BY ?s
+
+### Presentation
+
+# Find me media elaborating on resources
+PREFIX schema: <http://schema.org/>
+
+SELECT ?concept ?mediaName ?mediaType WHERE 
+  {?mediaName a ?mediaType. 
+  ?mediaName schema:about ?concept . 
+  FILTER (?mediaType IN (schema:ImageObject, schema:VideoObject))}
+
+ORDER BY ?concept
+
+
+###  Argumentation links
+
+# show Arguments - all arguments and there objects
+SELECT ?s ?p ?o WHERE
+{ ?s a arg:ToulminArgument .
+?s ?p ?o. 
+ MINUS {?s rdf:type ?o}
+}
+ORDER BY ?s
+
+# show the data in support of an argument directly
+SELECT ?s   ?d WHERE
+{ ?s a arg:ToulminArgument .
+
+?s arg:hasData/dc:related ?d . 
+
+}
+ORDER BY ?s
+
+# go via claim 
+
+# show the data in support of an argument directly
+SELECT ?s ?c ?d ?t WHERE
+{ ?s a arg:ToulminArgument .
+	?s arg:hasData ?c. 
+ OPTIONAL {?c dc:related ?d}
+ OPTIONAL {?c arg:text ?t} 
+}
+ORDER BY ?s
+
+Better: 
+
+SELECT ?s ("hasData" as ?p) ?d WHERE
+{?s a arg:ToulminArgument . 
+ ?s arg:hasData/dc:related ?d . 
+ }
+
+
+
+
+

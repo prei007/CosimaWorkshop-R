@@ -1,0 +1,638 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:dc="http://purl.org/dc/terms/" 
+ xmlns:edtech="http://coolfutures.net/rdf/2021/edtech#">
+ 
+ 
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#HmeloSilver2015">
+        <dc:title>Using Representational Tools to Learn about Complex Systems: A Tale of Two Classrooms</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Hmelo-Silver, Cindy E.</dc:creator>
+        <dc:creator>Liu, Lei</dc:creator>
+        <dc:creator>Gray, Steven</dc:creator>
+        <dc:creator>Jordan, Rebecca</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1002/tea.21187</dc:identifier> <edtech:wikiLink>"https://coolfutures.net/wiki/index.php?title=Computational_Modelling_in_Environmental_Education/References#Hmelo-Silver2015"</edtech:wikiLink>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#HmeloSilver2014">
+        <dc:title>Technology-Supported Inquiry forLearning about Aquatic Ecosystems</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Hmelo-Silver, Cindy E.</dc:creator>
+        <dc:creator>Eberbach, Catherine</dc:creator>
+        <dc:creator>Jordan, Rebecca</dc:creator>
+        <dc:date>2014</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.12973/eurasia.2014.1170a</dc:identifier>
+    <edtech:webLink>"https://www.ejmste.com/article/technology-supported-inquiry-forlearning-about-aquatic-ecosystems-4329"></edtech:webLink>   <edtech:wikiLink>"https://coolfutures.net/wiki/index.php?title=Computational_Modelling_in_Environmental_Education/References#Hmelo-Silver2014"</edtech:wikiLink>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Lant2016">
+        <dc:title>Environmental Systems Simulations for Carbon, Energy, Nitrogen, Water, and Watersheds: Design Principles and Pilot Testing</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Lant, Christopher</dc:creator>
+        <dc:creator>Pérez-Lapeña, Blanca</dc:creator>
+        <dc:creator>Xiong, Weidong</dc:creator>
+        <dc:creator>Kraft, Steven</dc:creator>
+        <dc:creator>Kowalchuk, Rhonda</dc:creator>
+        <dc:creator>Blair, Michael</dc:creator>
+        <dc:date>2016</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.5408/14-004.1</dc:identifier>
+        <edtech:webLink>"https://eric.ed.gov/?q=environmental+education+computer+simulation&amp;pr=on&amp;id=EJ1101684"</edtech:webLink>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Özcan2020">
+        <dc:title>The Effect of PhET Simulation-Based Instruction on 6th Grade Students' Achievement Regarding the Concept of Greenhouse Gas</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Özcan, Hasan</dc:creator>
+        <dc:creator>Çetin, Gülcan</dc:creator>
+        <dc:creator>Kostur, H. Ilker</dc:creator>
+        <dc:date>2020</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN EISSN-2077-2327</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Pande2021">
+        <dc:title>Long-Term Effectiveness of Immersive VR Simulations in Undergraduate Science Learning: Lessons from a Media-Comparison Study</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Pande, Prajakt</dc:creator>
+        <dc:creator>Thit, Amalie</dc:creator>
+        <dc:creator>Sørensen, Anja Elaine</dc:creator>
+        <dc:creator>Mojsoska, Biljana</dc:creator>
+        <dc:creator>Moeller, Morten E.</dc:creator>
+        <dc:creator>Jepsen, Per Meyer</dc:creator>
+        <dc:date>2021</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN ISSN-2156-7069</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Erlandson2014">
+        <dc:title>Improving Learners' Ability to Recognize Emergence with Embedded Assessment in a Virtual Watershed</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Erlandson, Benjamin E.</dc:creator>
+        <dc:date>2014</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN ISSN-2211-1662</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#MutchJones2018">
+        <dc:title>Teaching with Interactive Computer-Based Simulation Models: Instructional Dilemmas and Opportunities in the High-Adventure Science Project</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Mutch-Jones, Karen</dc:creator>
+        <dc:creator>Gasca, Santiago</dc:creator>
+        <dc:creator>Pallant, Amy</dc:creator>
+        <dc:creator>Lee, Hee-Sun</dc:creator>
+        <dc:date>2018</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN ISSN-0036-6803</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Basu2015">
+        <dc:title>A Scaffolding Framework to Support Learning of Emergent Phenomena Using Multi-Agent-Based Simulation Environments</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Basu, Satabdi</dc:creator>
+        <dc:creator>Sengupta, Pratim</dc:creator>
+        <dc:creator>Biswas, Gautam</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN ISSN-0157-244X</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Carey2017">
+        <dc:title>Simulation Modeling of Lakes in Undergraduate and Graduate Classrooms Increases Comprehension of Climate Change Concepts and Experience with Computational Tools</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Carey, Cayelan C.</dc:creator>
+        <dc:creator>Gougis, Rebekka Darner</dc:creator>
+        <dc:date>2017</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN ISSN-1059-0145</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Cuadrado2017">
+        <dc:title>The Interactive Effect of Pro-Environmental Disciplinary Concentration under Cooperation versus Competition Contexts</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Cuadrado, Esther</dc:creator>
+        <dc:creator>Tabernero, Carmen</dc:creator>
+        <dc:creator>García, Rocío</dc:creator>
+        <dc:creator>Luque, Bárbara</dc:creator>
+        <dc:date>2017</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN ISSN-1350-4622</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Dede2017">
+        <dc:title>EcoXPT: Designing for Deeper Learning through Experimentation in an Immersive Virtual Ecosystem</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Dede, Chris</dc:creator>
+        <dc:creator>Grotzer, Tina A.</dc:creator>
+        <dc:creator>Kamarainen, Amy</dc:creator>
+        <dc:creator>Metcalf, Shari</dc:creator>
+        <dc:date>2017</dc:date>
+        <dc:identifier>ISSN EISSN-1436-4522</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Cuccurullo2013">
+        <dc:title>A 3D Serious City Building Game on Waste Disposal</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Cuccurullo, Stefania</dc:creator>
+        <dc:creator>Francese, Rita</dc:creator>
+        <dc:creator>Passero, Ignazio</dc:creator>
+        <dc:creator>Tortora, Genoveffa</dc:creator>
+        <dc:date>2013</dc:date>
+        <dc:identifier>ISSN ISSN-1539-3100</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Visintainer2015">
+        <dc:title>Sixth-Grade Students' Progress in Understanding the Mechanisms of Global Climate Change</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Visintainer, Tammie</dc:creator>
+        <dc:creator>Linn, Marcia</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN ISSN-1059-0145</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Yeung2017">
+        <dc:title>Comparing Pedagogies for Plastic Waste Management at University Level</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Yeung, Siu-Kit</dc:creator>
+        <dc:creator>So, Wing-Mui Winnie</dc:creator>
+        <dc:creator>Cheng, Nga-Yee Irene</dc:creator>
+        <dc:creator>Cheung, Tsz-Yan</dc:creator>
+        <dc:creator>Chow, Cheuk-Fai</dc:creator>
+        <dc:date>2017</dc:date>
+        <dc:identifier>ISSN ISSN-1467-6370</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Mallavarapu2015">
+        <dc:title>Developing Computational Methods to Measure and Track Learners' Spatial Reasoning in an Open-Ended Simulation</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Mallavarapu, Aditi</dc:creator>
+        <dc:creator>Lyons, Leilah</dc:creator>
+        <dc:creator>Shelley, Tia</dc:creator>
+        <dc:creator>Minor, Emily</dc:creator>
+        <dc:creator>Slattery, Brian</dc:creator>
+        <dc:creator>Zellner, Moria</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN EISSN-2157-2100</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description 
+rdf:about="http://coolfutures.net/rdf/2021/edtech#Alves2021">
+        <dc:title>Scientific, societal and pedagogical approaches to tackle the impact of climate change on marine pollution</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Alves, T.M.</dc:creator>
+        <dc:creator>Kokinou, E.</dc:creator>
+        <dc:creator>Ekström, M.</dc:creator>
+        <dc:creator>Nikolaidis, A.</dc:creator>
+        <dc:creator>Georgiou, G.C.</dc:creator>
+        <dc:creator>Miliou, A.</dc:creator>
+        <dc:date>2021</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1038/s41598-021-82421-y</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Su2018">
+        <dc:title>Exploring sustainability environment educational design and learning effect evaluation through migration theory: An example of environment educational serious games</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Su, C.-H.</dc:creator>
+        <dc:date>2018</dc:date>
+        <dc:identifier>DOI 10.3390/su10103363</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Hovardas2011">
+        <dc:title>Towards a Critical Re-Appraisal of Ecology Education: Scheduling an Educational Intervention to Revisit the 'Balance of Nature' Metaphor</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Hovardas, T.</dc:creator>
+        <dc:creator>Korfiatis, K.</dc:creator>
+        <dc:date>2011</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s11191-010-9325-0</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Barnett2011">
+        <dc:title>Urban environmental education: Leveraging technology and ecology to engage students in studying the environment</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Barnett, M.</dc:creator>
+        <dc:creator>Vaughn, M.H.</dc:creator>
+        <dc:creator>Strauss, E.</dc:creator>
+        <dc:creator>Cotter, L.</dc:creator>
+        <dc:date>2011</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1080/10382046.2011.588501</dc:identifier>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Dickes2019">
+        <dc:title>Scaffolding ecosystems science practice by blending immersive environments and computational modeling</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Dickes, Amanda C.</dc:creator>
+        <dc:creator>Kamarainen, Amy</dc:creator>
+        <dc:creator>Metcalf, Shari J.</dc:creator>
+        <dc:creator>Gün‐Yildiz, Semiha</dc:creator>
+        <dc:creator>Brennan, Karen</dc:creator>
+        <dc:creator>Grotzer, Tina</dc:creator>
+        <dc:creator>Dede, Chris</dc:creator>
+        <dc:date>2019</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1111/bjet.12806</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Bush2019">
+        <dc:title>Teaching Anthropogenic Global Climate Change (AGCC) Using Climate Models</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Bush, Drew</dc:creator>
+        <dc:creator>Sieber, Renee</dc:creator>
+        <dc:creator>Chandler, Mark A.</dc:creator>
+        <dc:creator>Sohl, Linda E.</dc:creator>
+        <dc:date>2019</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1080/03098265.2019.1661370</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Bhattacharya2020">
+        <dc:title>Using Climate Models to Learn About Global Climate Change: Investigating the Phenomenon of Increasing Surface Air Temperatures Using a Global Climate Modeling Approach</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Bhattacharya, Devarati</dc:creator>
+        <dc:creator>Steward, Kimberly Carroll</dc:creator>
+        <dc:creator>Chandler, Mark</dc:creator>
+        <dc:creator>Forbes, Cory</dc:creator>
+        <dc:date>2020</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN 0036-8555</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Thacker2019">
+        <dc:title>Visualizing the Greenhouse Effect: Restructuring Mental Models of Climate Change through a Guided Online Simulation</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Thacker, Ian</dc:creator>
+        <dc:creator>Sinatra, Gale M.</dc:creator>
+        <dc:date>2019</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN 2227-7102</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Carey2017">
+        <dc:title>Simulation Modeling of Lakes in Undergraduate and Graduate Classrooms Increases Comprehension of Climate Change Concepts and Experience with Computational Tools</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Carey, Cayelan C.</dc:creator>
+        <dc:creator>Gougis, Rebekka Darner</dc:creator>
+        <dc:date>2017</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s10956-016-9644-2</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Bush2016">
+        <dc:title>The Teaching of Anthropogenic Climate Change and Earth Science via Technology-Enabled Inquiry Education</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Bush, Drew</dc:creator>
+        <dc:creator>Sieber, Renee</dc:creator>
+        <dc:creator>Seiler, Gale</dc:creator>
+        <dc:creator>Chandler, Mark</dc:creator>
+        <dc:date>2016</dc:date>
+        <dc:identifier>ISSN 1089-9995</dc:identifier>
+        <dc:identifier>DOI 10.5408/15-127</dc:identifier>
+         <edtech:webLink>"https://eric.ed.gov/?q=climate+computer+model&amp;id=EJ1111541"</edtech:webLink>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Pallant2015">
+        <dc:title>Constructing Scientific Arguments Using Evidence from Dynamic Computational Climate Models</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Pallant, Amy</dc:creator>
+        <dc:creator>Lee, Hee-Sun</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s10956-014-9499-3</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Bush2018">
+        <dc:title>Examining Educational Climate Change Technology: How Group Inquiry Work with Realistic Scientific Technology Alters Classroom Learning</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Bush, Drew</dc:creator>
+        <dc:creator>Sieber, Renee</dc:creator>
+        <dc:creator>Seiler, Gale</dc:creator>
+        <dc:creator>Chandler, Mark</dc:creator>
+        <dc:date>2018</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s10956-017-9714-0</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Bush2017">
+        <dc:title>University-Level Teaching of Anthropogenic Global Climate Change (AGCC) via Student Inquiry</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Bush, Drew</dc:creator>
+        <dc:creator>Sieber, Renee</dc:creator>
+        <dc:creator>Seiler, Gale</dc:creator>
+        <dc:creator>Chandler, Mark</dc:creator>
+        <dc:date>2017</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1080/03057267.2017.1319632</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#TuckerRaymond2019">
+        <dc:title>&quot;I Broke Your Game!&quot;: Critique among Middle Schoolers Designing Computer Games about Climate Change</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Tucker-Raymond, Eli</dc:creator>
+        <dc:creator>Puttick, Gillian</dc:creator>
+        <dc:creator>Cassidy, Michael</dc:creator>
+        <dc:creator>Harteveld, Casper</dc:creator>
+        <dc:creator>Troiano, Giovanni M.</dc:creator>
+        <dc:date>2019</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1186/s40594-019-0194-z</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Tasquier2016">
+        <dc:title>Exploring Students' Epistemological Knowledge of Models and Modelling in Science: Results from a Teaching/Learning Experience on Climate Change</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Tasquier, Giulia</dc:creator>
+        <dc:creator>Levrini, Olivia</dc:creator>
+        <dc:creator>Dillon, Justin</dc:creator>
+        <dc:date>2016</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1080/09500693.2016.1148828</dc:identifier>
+    </rdf:Description>
+    
+ <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Waddington2018">
+        <dc:title>Grim FATE: Learning About Systems Thinking in an In-Depth Climate Change Simulation</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Waddington, David I.</dc:creator>
+        <dc:creator>Fennewald, Thomas</dc:creator>
+        <dc:date>2018</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1177/1046878117753498</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Parker2014">
+        <dc:title>Simulation and Understanding in the Study of Weather and Climate</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Parker, Wendy S.</dc:creator>
+        <dc:date>2014</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1162/POSC_a_00137</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#RooneyVarga2020">
+        <dc:title>The Climate Action Simulation</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Rooney-Varga, Juliette N.</dc:creator>
+        <dc:creator>Kapmeier, Florian</dc:creator>
+        <dc:creator>Sterman, John D.</dc:creator>
+        <dc:creator>Jones, Andrew P.</dc:creator>
+        <dc:creator>Putko, Michele</dc:creator>
+        <dc:creator>Rath, Kenneth</dc:creator>
+        <dc:date>2020</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1177/1046878119890643</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Dinsmore2018">
+        <dc:title>The Relation between Cognitive and Metacognitive Strategic Processing during a Science Simulation</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Dinsmore, Daniel L.</dc:creator>
+        <dc:creator>Zoellner, Brian P.</dc:creator>
+        <dc:date>2018</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1111/bjep.12177</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Nussbaum2015">
+        <dc:title>Losing the Lake: Simulations to Promote Gains in Student Knowledge and Interest about Climate Change</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Nussbaum, E. Michael</dc:creator>
+        <dc:creator>Owens, Marissa C.</dc:creator>
+        <dc:creator>Sinatra, Gale M.</dc:creator>
+        <dc:creator>Rehmat, Abeera P.</dc:creator>
+        <dc:creator>Cordova, Jacqueline R.</dc:creator>
+        <dc:creator>Ahmad, Sajjad</dc:creator>
+        <dc:creator>Harris, Fred C.</dc:creator>
+        <dc:creator>Dascalu, Sergiu M.</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN EISSN-1306 3065</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Kukkonen2014">
+        <dc:title>The Effects of Scaffolded Simulation-Based Inquiry Learning on Fifth-Graders' Representations of the Greenhouse Effect</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Kukkonen, Jari Ensio</dc:creator>
+        <dc:creator>Kärkkäinen, Sirpa</dc:creator>
+        <dc:creator>Dillon, Patrick</dc:creator>
+        <dc:creator>Keinonen, Tuula</dc:creator>
+        <dc:date>2014</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1080/09500693.2013.782452</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Lux2020">
+        <dc:title>Playing with Complex Systems? The Potential to Gain Geographical System Competence through Digital Gaming</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Lux, Joelle-Denise</dc:creator>
+        <dc:creator>Budke, Alexandra</dc:creator>
+        <dc:date>2020</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN 2227-7102</dc:identifier>
+    </rdf:Description>
+    
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Valkering2013">
+        <dc:title>A Perspective-Based Simulation Game to Explore Future Pathways of a Water-Society System Under Climate Change</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Valkering, Pieter</dc:creator>
+        <dc:creator>van der Brugge, Rutger</dc:creator>
+        <dc:creator>Offermans, Astrid</dc:creator>
+        <dc:creator>Haasnoot, Marjolijn</dc:creator>
+        <dc:creator>Vreugdenhil, Heleen</dc:creator>
+        <dc:date>2013</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1177/1046878112441693</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Stave2015">
+        <dc:title>Improving Learners’ Understanding of Environmental Accumulations through Simulation</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Stave, Krystyna A.</dc:creator>
+        <dc:creator>Beck, Abby</dc:creator>
+        <dc:creator>Galvan, Chris</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1177/1046878114531764</dc:identifier>
+    </rdf:Description>
+    
+
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Taillandier2018">
+        <dc:title>Games Ready to Use: A Serious Game for Teaching Natural Risk Management</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Taillandier, Franck</dc:creator>
+        <dc:creator>Adam, Carole</dc:creator>
+        <dc:date>2018</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1177/1046878118770217</dc:identifier>
+    </rdf:Description>
+
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Dickes2016">
+        <dc:title>Development of Mechanistic Reasoning and Multilevel Explanations of Ecology in Third Grade Using Agent-Based Models</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Dickes, Amanda Catherine</dc:creator>
+        <dc:creator>Sengupta, Pratim</dc:creator>
+        <dc:creator>Farris, Amy Voss</dc:creator>
+        <dc:creator>Basu, Satabdi</dc:creator>
+        <dc:date>2016</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN 1098-237X</dc:identifier>
+        <dc:identifier>DOI 10.1002/sce.21217</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#BenhadiMarin2020">
+        <dc:title>EcoPred: An Educational Individual Based Model to Explain Biological Control, a Case Study within an Arable Land</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Benhadi-Marín, Jacinto</dc:creator>
+        <dc:creator>Pereira, José Alberto</dc:creator>
+        <dc:creator>Sousa, José Paulo</dc:creator>
+        <dc:creator>Santos, Sónia A. P.</dc:creator>
+        <dc:date>2020</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1080/00219266.2019.1569086</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Jensen2014">
+        <dc:title>Does Teaching Students How to Explicitly Model the Causal Structure of Systems Improve Their Understanding of These Systems?</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Jensen, Eva</dc:creator>
+        <dc:date>2014</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1080/03043797.2014.881320</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Anderson2020">
+        <dc:title>Alignment of a Digital Watershed and Land Use Game to National Education Standards</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Anderson, Katelyn</dc:creator>
+        <dc:creator>Grudens-Schuck, Nancy</dc:creator>
+        <dc:creator>Valek, Robert</dc:creator>
+        <dc:creator>Schulte, Lisa A.</dc:creator>
+        <dc:creator>Smalley, Scott W.</dc:creator>
+        <dc:date>2020</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1002/nse2.20005</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Kamarainen2015">
+        <dc:title>Exploring Ecosystems from the Inside: How Immersive Multi-user Virtual Environments Can Support Development of Epistemologically Grounded Modeling Practices in Ecosystem Science Instruction</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Kamarainen, Amy M.</dc:creator>
+        <dc:creator>Metcalf, Shari</dc:creator>
+        <dc:creator>Grotzer, Tina</dc:creator>
+        <dc:creator>Dede, Chris</dc:creator>
+        <dc:date>2015</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s10956-014-9531-7</dc:identifier>
+    </rdf:Description>
+    
+
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Eckhardt2018">
+        <dc:title>Instructional Support for Intuitive Knowledge Acquisition When Learning with an Ecological Computer Simulation</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Eckhardt, Marc</dc:creator>
+        <dc:creator>Urhahne, Detlef</dc:creator>
+        <dc:creator>Harms, Ute</dc:creator>
+        <dc:date>2018</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN 2227-7102</dc:identifier>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Thomas2019">
+        <dc:title>Simulating a Non-Native Invasion</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Thomas, Debra Kelly</dc:creator>
+        <dc:creator>Milenkovic, Lisa</dc:creator>
+        <dc:creator>Marousky, Annamargareth</dc:creator>
+        <dc:date>2019</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>ISSN 0036-8148</dc:identifier>
+    </rdf:Description>
+    
+
+<rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Markauskaite2020">
+        <dc:title>Model-Based Knowing: How Do Students Ground Their Understanding about Climate Systems in Agent-Based Computer Models?</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Markauskaite, Lina</dc:creator>
+        <dc:creator>Kelly, Nick</dc:creator>
+        <dc:creator>Jacobson, Michael J.</dc:creator>
+        <dc:date>2020</dc:date>
+        <edtech:dateAdded>2021-11-20</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s11165-017-9680-9</dc:identifier>
+    </rdf:Description>
+
+<rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Puttick2018">
+        <dc:title>Building Systems from Scratch: an Exploratory Study of Students Learning About Climate Change</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Puttick, Gillian</dc:creator>
+        <dc:creator>Tucker-Raymond, Eli</dc:creator>
+        <dc:date>2018</dc:date>
+        <edtech:dateAdded>2022-07-30</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s10956-017-9725-x</dc:identifier>
+    </rdf:Description>
+    
+<rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Bielik2018">
+        <dc:title>Shifting the Balance: Engaging Students in Using a Modeling Tool
+to Learn about Ocean Acidification</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Bielik, Tom</dc:creator>
+        <dc:creator>Damelin, Dan</dc:creator>
+        <dc:creator>Krajcik, Joseph S.</dc:creator>
+        <dc:date>2019</dc:date>
+        <edtech:dateAdded>2022-08-08</edtech:dateAdded>
+        <dc:identifier>10.29333/ejmste/99512</dc:identifier>
+    </rdf:Description>
+    
+<rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Chen2021">
+        <dc:title>Analyzing student thinking reflected in self‑constructed cognitive maps and its influence on inquiry task performance</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Chen, Juanjuan</dc:creator>
+        <dc:creator>Wang, Minhong</dc:creator>
+        <dc:creator>Dede, Chris</dc:creator>
+        <dc:creator>Grotzer, Tina A.</dc:creator>
+        <dc:date>2021</dc:date>
+        <edtech:dateAdded>2022-08-09</edtech:dateAdded>
+        <dc:identifier>10.1007/s11251-021-09543-8</dc:identifier>
+    </rdf:Description>
+    
+<rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Reilly2021">
+        <dc:title>Assessing Science Identity Exploration in Immersive Virtual Environments: A Mixed Methods Approach</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Reilly, Joseph M.</dc:creator>
+        <dc:creator>McGivney, Eileen</dc:creator>
+        <dc:creator>Dede, Chris</dc:creator>
+        <dc:creator>Grotzer, Tina A.</dc:creator>
+        <dc:date>2021</dc:date>
+        <edtech:dateAdded>2022-08-09</edtech:dateAdded>
+        <dc:identifier>10.1080/00220973.2020.1712313</dc:identifier>
+    </rdf:Description>
+    
+
+    
+<!-- 
+Let's leave this one out to meet the year boundary 
+<rdf:Description rdf:about="http://coolfutures.net/rdf/2021/edtech#Xiang2022">
+        <dc:title>Supporting Three‑dimensional Learning on Ecosystems Using an Agent‑Based Computer Model</dc:title>
+        <dc:type>journalArticle</dc:type>
+        <dc:creator>Xiang, Lin</dc:creator>
+        <dc:creator>Goodpaster, Sagan</dc:creator>
+        <dc:creator>Mitchell, April</dc:creator>
+        <dc:date>2022</dc:date>
+        <edtech:dateAdded>2022-07-30</edtech:dateAdded>
+        <dc:identifier>DOI 10.1007/s10956-022-09968-x</dc:identifier>
+    </rdf:Description>
+ -->
+    
+    
+</rdf:RDF>
+
+    
