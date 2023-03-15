@@ -5,4 +5,12 @@ It supports the coding step in a literature review: identifying the properties o
 relations between studies (papers). It supports the construction of the tables and graphics typical for a review paper. It also includes a Shiny application with a point and click interface
 to the database with the study descriptions and codes. 
 
+For this to work, the following packages need to be installed:
+
+* AllegRo (see install-allegRo.R; it's no longer available on CRAN)
+* kableExtra
+* tidyverse
+* urltools
+* shiny
+
 
